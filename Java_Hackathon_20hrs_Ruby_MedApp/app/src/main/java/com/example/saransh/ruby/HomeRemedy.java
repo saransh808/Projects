@@ -1,0 +1,13 @@
+package com.example.saransh.ruby;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class HomeRemedy extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_home_remedy);
+    }
+}

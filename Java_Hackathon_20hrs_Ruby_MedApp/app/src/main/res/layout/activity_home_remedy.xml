@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home_remedy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context="com.example.saransh.ruby.HomeRemedy">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Cough and Cold"
+            android:textColor="@color/maroon"
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25" />
+
+        <TextView
+            android:text="  # Use cough drops or hard candy.\n
+  # Try a teaspoon of honey.\n
+  # Drink up\n
+  # Heat up that drink.\n
+  # Use cough medicine.\n
+  # Use a decongestant.\n
+  # Breathe in steam.\n
+  # Avoid dirty air.\n
+  # Rest.\n
+  # Gargle with salt water.\n
+  "
+            android:textStyle="italic"
+            android:background="@color/yello"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView24" />
+
+        <TextView
+            android:text="Fever"
+            android:textColor="@color/maroon"
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView23" />
+
+        <TextView
+            android:text="  # Cool Water-bring down temprature.\n
+  # Basil-effective herb.\n
+  # Apple Cider Vinegar.\n
+  # Garlic.\n
+  # Raisins-reduce infection.\n
+  "
+            android:textStyle="italic"
+            android:background="@color/yello"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView22" />
+
+        <TextView
+            android:text="Loose Motion"
+            android:textColor="@color/maroon"
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView21" />
+
+        <TextView
+            android:text="  # Mustard seeds.\n
+  # Lemonade.\n
+  # Pomegranate.\n
+  # Honey.\n
+  # Buttermilk.\n
+            "
+            android:textStyle="italic"
+            android:background="@color/yello"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView20" />
+
+        <TextView
+            android:text="Headache"
+            android:textColor="@color/maroon"
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView19" />
+
+        <TextView
+            android:text="  #Eat Nuts.\n
+  # Apply apple cider vinegar.\n
+  # Drink fish oil.\n
+  # Ginger root.\n
+              "
+            android:textStyle="italic"
+            android:background="@color/yello"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView18" />
+
+        <TextView
+            android:text="Cuts and Wounds"
+            android:textColor="@color/maroon"
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView17" />
+
+        <TextView
+            android:text="  # Apply coconut oil.\n
+  # Turmeric-natural antibiotic and\n
+     \tantiseptic.\n
+  # Aloe Vera-analgesic and inflammatory\n
+     \tproperties.\n
+              "
+            android:textStyle="italic"
+            android:background="@color/yello"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:fontFamily="monospace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16" />
+    </LinearLayout>
+</ScrollView>
