@@ -1,0 +1,71 @@
+#Database : bank
+#Tables
+1: Accounts
+
+
+desc accounts;
++---------+--------------+------+-----+---------+-------+
+| Field   | Type         | Null | Key | Default | Extra |
++---------+--------------+------+-----+---------+-------+
+| id      | varchar(30)  | NO   | PRI | NULL    |       |
+| accno   | int(11)      | NO   |     | NULL    |       |
+| email   | varchar(30)  | NO   |     | NULL    |       |
+| phno    | varchar(10)  | NO   |     | NULL    |       |
+| dob     | date         | NO   |     | NULL    |       |
+| address | varchar(100) | YES  |     | NULL    |       |
+| balance | int(11)      | NO   |     | NULL    |       |
+| name    | varchar(50)  | NO   |     | NULL    |       |
++---------+--------------+------+-----+---------+-------+
+8 rows in set (0.01 sec)
+
+
+2.User
+desc user;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | varchar(30) | NO   | MUL | NULL    |       |
+| pass  | varchar(30) | NO   |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+
+3.Admin
+desc admin;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| id    | varchar(30) | NO   |     | NULL    |       |
+| pass  | varchar(30) | NO   |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+2 rows in set (0.01 sec)
+
+
+4.Statement
+desc statement;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| id          | varchar(30) | YES  | MUL | NULL    |       |
+| accno       | int(11)     | YES  |     | NULL    |       |
+| destination | varchar(30) | YES  |     | NULL    |       |
+| datetime    | datetime    | YES  |     | NULL    |       |
+| amount      | int(11)     | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
+
+
+
+dependencies
+1. alter table user add foreign key(id) references accounts(id);
+2. alter table statement add foreign key(id) references accounts(id);
+
+
+
+
+EXTRA INFO:
+Install mysql community edition from mysql website
+Add mysql connector [.jar] file into your project to connect mysql with java
+Preferred IDE : Eclipse [Oxygen]
+Operating System used for development : MAC-OS X
+
