@@ -69,3 +69,5 @@ Add mysql connector [.jar] file into your project to connect mysql with java
 Preferred IDE : Eclipse [Oxygen]
 Operating System used for development : MAC-OS X
 
+
+## Code has no error with the above given dependencies. UI may differ according to the different settings
