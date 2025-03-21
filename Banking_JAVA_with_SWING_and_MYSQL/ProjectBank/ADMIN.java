@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import javax.swing.*;
 
-public class ADMIN {
+public class ADMIN {   
 
 	public static  long  money=0;
 	public static long  nos=0;
